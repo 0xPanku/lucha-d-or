@@ -1,0 +1,48 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'>
+    <style>
+        .lucha-base { fill: #FFE61D; }
+        .lucha-alt { fill: #fff; }
+        .lucha-skin { fill: #F3BC00; }
+        .ruby { fill: #E0115F; }
+        .lucha-breathe { animation: 0.5s lucha-breathe infinite alternate ease-in-out; } @keyframes lucha-breathe { from
+        { transform: translateY(0px); } to { transform: translateY(1%); } }
+    </style>
+    <g class='lucha-breathe'>
+        <path class='ruby' d='M21 2V1h-1V0h-1v2h1v1h-3v2h2v1h2V5h1V2zM5 3H4V2h1V0H4v1H3v1H2v3h1v1h2V5h2V3H6z'/>
+        <g fill='#000' opacity='.15'>
+            <path d='M21 4h1v1h-1zM19 5h-1v1h3V5h-1z'/>
+            <path d='M2 4h1v1H2zM4 5H3v1h3V5H5z'/>
+        </g>
+        <path class='lucha-skin'
+              d='M22 12v-1h-1v-1h-1V9h-1V5h-1V3h-1V2h-1V1h-1V0H9v1H8v1H7v1H6v2H5v4H4v1H3v1H2v1H1v8h4v-1h1v-2H5v-3h1v1h1v1h1v2h8v-2h1v-1h1v-1h1v3h-1v2h1v1h4v-8z'/>
+        <path class='lucha-base'
+              d='M10 9H4v1H3v1H2v1H1v3h4v-1h1v1h1v1h1v2h3V9zM22 12v-1h-1v-1h-1V9h-7v9h3v-2h1v-1h1v-1h1v1h4v-3z'/>
+        <path d='M10 9H4v1H3v1H2v1H1v3h4v-1h1v1h1v1h1v2h3V9zM22 12v-1h-1v-1h-1V9h-7v9h3v-2h1v-1h1v-1h1v1h4v-3z'
+              fill='#000' opacity='.15'/>
+        <path class='ruby' d='M3 15H1v2h4v-2H4zM22 15h-3v2h4v-2z'/>
+        <path class='lucha-base'
+              d='M18 5V3h-1V2h-1V1h-1V0H9v1H8v1H7v1H6v2H5v5h1v2h1v1h1v1h1v1h6v-1h1v-1h1v-1h1v-2h1V5z'/>
+
+        <g class='lucha-skin'>
+            <path d='M18 5V3h-1V2h-1v2h-1v1h-1v1h-1v3h-2V6h-1V5H9V4H8V2H7v1H6v2H5v4h1v1h2v3h1v1h6v-1h1v-3h2V9h1V5z'/>
+        </g>
+
+        <path fill='#FFF' d='M9 6H6v3h4V6zM17 6h-3v3h4V6z'/>
+
+        <path fill='#000' d='M16 6h-2v3h3V6zM8 6H7v3h3V6H9z'/>
+        // EYES
+        <path fill='#FFF' d='M7 6h1v1H7zM16 6h1v1h-1z' opacity='.4'/>
+        <path fill='#FFF' d='M15 7h1v1h-1zM8 7h1v1H8z'/>
+        // PUPILLE
+        <path fill='#000' opacity='.9' d='M13 11h-3v1h4v-1z'/>
+        // MOUTH
+        <path class='ruby' opacity='1' d='M14 10H9v3h1v-2h4v2h1v-3z'/>
+        // MOUSTACHE
+    </g>
+    <path class='lucha-skin' d='M16 23v-6H8v6H7v1h4v-4h2v4h4v-1z'/>
+    <path class='lucha-base' d='M15 17H8v1h1v1h2v1h2v-1h2v-1h1v-1z'/>
+    <path class='lucha-base' d='M9 21H8v2H7v1h4v-3h-1zM16 23v-2h-3v3h4v-1z'/>
+    <path class='ruby' d='M9 22H8v1H7v1h4v-2h-1zM16 23v-1h-3v2h4v-1z'/>
+</svg>
+
+
