@@ -65,7 +65,19 @@ async function main() {
             luchadores.push(luchador);
 
         } catch (error) {
-            console.log(item + " --> Error : " + error);
+
+            const funkyness = Math.floor(Math.random() * 3);
+            if(funkyness === 0){
+                console.log(item + " --> Ya estoy en la playa");
+            }
+
+            if(funkyness === 1){
+                console.log(item + " --> Sorry bro, all my Lucha were on FTX ...");
+            }
+
+            if(funkyness === 2){
+                console.log(item + " --> I bought a razor to shave my mustache ");
+            }
         }
     }
 
